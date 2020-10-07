@@ -5,9 +5,9 @@
 
 ## Example
 
-const FArgs = require('./index')
-<br>
-const examplefunction = function () {
+> const FArgs = require('./index')
+>
+> const examplefunction = function () {
 <br>
 const fargs = FArgs(arguments)
 <br>
