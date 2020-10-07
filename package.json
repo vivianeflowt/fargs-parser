@@ -1,0 +1,39 @@
+{
+  "name": "fargs-parser",
+  "version": "0.1.2",
+  "description": "Simple Arguments Parser for Javascript Functions",
+  "main": "index.js",
+  "keywords": [
+    "node",
+    "js",
+    "javascript",
+    "function",
+    "args",
+    "argument",
+    "arguments",
+    "parameter",
+    "parameters",
+    "parser",
+    "validate"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Viviane Florido <vivianeflowt@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vivianeflowt/fargs-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vivianeflowt/fargs-parser/issues"
+  },
+  "homepage": "https://github.com/vivianeflowt/fargs-parser",
+  "dependencies": {
+    "type-detect": "4.0.8"
+  },
+  "devDependencies": {
+    "chance": "1.1.7",
+    "mocha": "8.1.3"
+  }
+}
