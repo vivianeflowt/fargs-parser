@@ -8,20 +8,14 @@
 > const FArgs = require('./index')
 >
 > const examplefunction = function () {
-<br>
-const fargs = FArgs(arguments)
-<br>
-console.table(fargs.list)
-<br>
-console.table(fargs.typedList)
-<br>
-}
-<br>
-examplefunction(1, 'teste', 25, {
-id: 1,
-name: 'aaa'
-})
-<br>
+>
+> const fargs = FArgs(arguments)
+> console.table(fargs.list)
+> console.table(fargs.typedList)
+>}
+>
+> examplefunction(1, 'teste', 25, { id: 1, name: 'aaa'})
+>
 
 ### License
 
