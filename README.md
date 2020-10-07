@@ -4,7 +4,7 @@
 
 >  npm install fargs-parser
 
-### Example
+## How to use?
 ```js
 const FargsParser = require('fargs-parser')
 
