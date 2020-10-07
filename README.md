@@ -2,16 +2,17 @@
 
 ## Usase
 
-  npm install fargs-parser
+>  npm install fargs-parser
 
 ## Example
 
-  const FargsParser = require('fargs-parser')
-
-  const functionExample = function () {
-      const fargs = FargsParser(arguments)
-      console.table(fargs.list)
-      console.table(fargs.typedList)
-  }
-  functionExample('name', 123)
+> const FargsParser = require('fargs-parser')
+>
+> const functionExample = function () {
+>      const fargs = FargsParser(arguments)
+>      console.table(fargs.list)
+>      console.table(fargs.typedList)
+>}
+>
+>  functionExample('name', 123)
 
