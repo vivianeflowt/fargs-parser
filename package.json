@@ -1,6 +1,6 @@
 {
   "name": "fargs-parser",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Simple Library to Parser Argument Function for Javascript",
   "main": "index.js",
   "keywords": [
