@@ -6,7 +6,6 @@
 
 ## Example
 
-<br>
 const FArgs = require('./index')
 <br>
 const examplefunction = function () {
