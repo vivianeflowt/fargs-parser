@@ -7,6 +7,7 @@
 ### Example
 
 > const FargsParser = require('fargs-parser')
+<br>
 >
 > const functionExample = function () {
 > const fargs = FargsParser(arguments)
