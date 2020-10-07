@@ -8,3 +8,5 @@ temp/
 *.log
 *.tmp
 debug.js
+README.md
+package-lock.json
