@@ -6,15 +6,13 @@
 
 ### Example
 <blockquote>
-const FargsParser = require('fargs-parser')
-<br>  
-const functionExample = function () {
-  const fargs = FargsParser(arguments)
-  console.table(fargs.list)
-  console.table(fargs.typedList)
-}
-<br>
-functionExample('name', 123)
+  const FargsParser = require('fargs-parser')
+  const functionExample = function () {
+    const fargs = FargsParser(arguments)
+    console.table(fargs.list)
+    console.table(fargs.typedList)
+  }
+  functionExample('name', 123)
 </blockquote>
 <br>
 
