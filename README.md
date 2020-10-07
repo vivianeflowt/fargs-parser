@@ -1,23 +1,15 @@
-## FArgs
+# fargs-parser - simple library to parser function arguments for node.js
 
-> Simple Library to Parser Argument Function for Javascript
-<br>
+> Simple Library to Parser Argument Function for Node
 
-## Example
+## Usage
 
-> const FArgs = require('./index')
->
-> const examplefunction = function () {
->
-> const fargs = FArgs(arguments)
-> console.table(fargs.list)
-> console.table(fargs.typedList)
->}
->
-> examplefunction(1, 'teste', 25, { id: 1, name: 'aaa'})
->
+  const FargsParser = require('fargs-parser')
 
-### License
+  const functionExample = function () {
+      const fargs = FargsParser(arguments)
+      console.table(fargs.list)
+      console.table(fargs.typedList)
+  }
+  functionExample('name', 123)
 
-MIT
-<br>
