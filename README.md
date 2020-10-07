@@ -1,6 +1,5 @@
 ## FArgs
 
-<br>
 > Simple Arguments Parser for Javascript Functions
 <br>
 
@@ -26,5 +25,5 @@ name: 'aaa'
 
 ### License
 
-<br>
 MIT
+<br>
