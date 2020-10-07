@@ -5,7 +5,7 @@
 >  npm install fargs-parser
 
 ### Example
-<code>
+<blockquote>
 const FargsParser = require('fargs-parser')
 <br />
 const functionExample = function () {
@@ -19,7 +19,7 @@ const functionExample = function () {
 }
 <br />
 functionExample('name', 123)
-</code>
+</blockquote>
 
 <br>
 
