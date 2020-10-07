@@ -1,6 +1,6 @@
 ## FArgs
 
-> Simple Arguments Parser for Javascript Functions
+> Simple Library to Parser Argument Function for Javascript
 <br>
 
 ## Example
