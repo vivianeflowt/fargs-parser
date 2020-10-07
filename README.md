@@ -1,10 +1,10 @@
-# fargs-parser - simple library to parser function arguments for node.js
+## fargs-parser - simple library to parser function arguments for node.js
 
-## Usase
+### Usase
 
 >  npm install fargs-parser
 
-## How to use?
+### How to use?
 ```js
 const FargsParser = require('fargs-parser')
 
@@ -16,6 +16,5 @@ const functionExample = function () {
 
 functionExample('name', 123)
 ```
-
 <br>
 
