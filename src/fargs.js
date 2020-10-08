@@ -16,9 +16,13 @@ const FArgs = function (argumentObject) {
   }
 
   const args = argumentObject
+  let argList = null
 
   const getArgs = () => {
-    return Array.from(args)
+    if (argList === null) {
+      argList = Array.from(args)
+    }
+    return argList
   }
 
   return {
