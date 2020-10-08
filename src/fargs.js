@@ -7,14 +7,13 @@
 'use strict'
 
 const core = require('./core')
-const isArgs = require('./typecast').isArgs
+const type = require('type-detect')
 const LIST_TYPE = require('./defs').LIST_TYPE
 
 const FArgs = function (argumentObject) {
-  if (!isArgs(argumentObject)) {
+  if (!type(argumentObject) === 'Arguments') {
     throw new Error('needs argument object')
   }
-
   const args = argumentObject
   let argList = null
 
