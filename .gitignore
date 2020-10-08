@@ -9,4 +9,5 @@ temp/
 *.tmp
 debug.js
 README.md
+yarn.lock
 package-lock.json

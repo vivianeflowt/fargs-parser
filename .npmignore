@@ -12,3 +12,5 @@ test/
 .gitignore
 examples/
 docs/
+yarn.lock
+package-lock.json
