@@ -27,7 +27,7 @@ const LIST_TYPE = {
 
 const VALIDATE_RULES = {
   required: (value) => {
-    if (value == null || value == undefined) {
+    if (value === null || value === undefined) {
       return false
     }
     return true
@@ -39,7 +39,7 @@ const VALIDATE_RULES = {
     return typecast.isAlphaNumeric(value)
   },
   numeric: (value) => {
-    if (typecast.isBool(value) || value == '' || value == ' ' || value == null || value == undefined) {
+    if (typecast.isBool(value) || value === '' || value === ' ' || value === null || value === undefined) {
       return false
     }
     return typecast.isNumeric(value)
