@@ -39,7 +39,7 @@ var someFunction = function () {
 
 someFunction('name', 123)
 ```
-<span> Results like this: </span>
+<span> Results like this: </span> <br />
 ![example](https://raw.githubusercontent.com/vivianeflowt/fargs-parser/main/docs/example.png)
 
 ### License
