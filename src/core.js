@@ -10,18 +10,18 @@ const typecast = require('./typecast')
 const defs = require('./defs')
 const LIST_TYPE = require('./defs').LIST_TYPE
 
-const argsList = function (argList = [], callback) {
+const argsList = (argList = [], callback) => {
   if (callback == null) {
     callback = LIST_TYPE.SIMPLE
   }
   return callback(argList)
 }
 
-const argsCount = function (argList = []) {
+const argsCount = (argList = []) => {
   return argList.length
 }
 
-const argsValidate = function (argList, rules = []) {
+const argsValidate = (argList, rules = []) => {
   const Validators = Object.keys(defs.VALIDATE_RULES).sort()
   for (let i = 0; i < rules.length; i++) {
     var ruleList = rules[i][1].split('|').join(' ').trim().split(' ').join('|').split('|')

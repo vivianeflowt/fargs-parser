@@ -12,7 +12,7 @@ const LIST_TYPE = require('./defs').LIST_TYPE
 
 const FArgs = function (argumentObject) {
   if (!type(argumentObject) === 'Arguments') {
-    throw new Error('needs argument object')
+    throw new Error('needs argument object as parameter')
   }
   const args = argumentObject
   let argList = null
