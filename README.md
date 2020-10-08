@@ -22,7 +22,7 @@ yarn add fargs-parser
 const FargsParser = require('fargs-parser')
 
 // some function without argument definition
-var sampleFunction = function () {
+var someFunction = function () {
 
   // creates a new instance of the function parser and passes the
   // function argument object as a parameter
@@ -37,7 +37,7 @@ var sampleFunction = function () {
   console.table(fargs.typedList)
 }
 
-sampleFunction('name', 123)
+someFunction('name', 123)
 ```
 
 ### License
