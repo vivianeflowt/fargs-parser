@@ -7,6 +7,36 @@
 const assert = require('assert')
 const fargs = require('../src/fargs-parser')
 
+describe('TYPEOF', function () {
+  it('string', function () {
+    assert.strictEqual(fargs.typeOf('string'), 'string')
+  })
+  it('integer', function () {
+    assert.strictEqual(fargs.typeOf(1), 'number')
+  })
+  it('float', function () {
+    assert.strictEqual(fargs.typeOf(0.1), 'number')
+  })
+  it('array', function () {
+    assert.strictEqual(fargs.typeOf([]), 'array')
+  })
+  it('object', function () {
+    assert.strictEqual(fargs.typeOf({}), 'object')
+  })
+  it('date', function () {
+    assert.strictEqual(fargs.typeOf(new Date), 'date')
+  })
+  it('function', function () {
+    assert.strictEqual(fargs.typeOf(function () {}), 'function')
+  })
+  it('arrow function', function () {
+    assert.strictEqual(fargs.typeOf(() => {}), 'function')
+  })
+  it('function argument object', function () {
+    assert.strictEqual(fargs.typeOf(arguments), 'arguments')
+  })
+})
+
 describe('LIST_TYPE.SIMPLE', function () {
   it('return array', function () {
     assert.strictEqual(fargs.typeOf(fargs.LIST_TYPE.SIMPLE([])), 'array')
