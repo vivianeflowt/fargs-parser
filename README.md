@@ -3,7 +3,7 @@
 This library was created with the objective of simplifying the creation of functions with different options of parameters and analyzing the type of data passed and making some validations.
 
 
-### Installation
+### Install
 
 With [npm](https://npmjs.org/):
 
@@ -17,8 +17,7 @@ With [yarn](https://yarnpkg.com/en/):
 yarn add fargs-parser
 ```
 
-
-### How to use?
+### Usage
 ```js
 const FargsParser = require('fargs-parser')
 
@@ -26,16 +25,13 @@ const FargsParser = require('fargs-parser')
 var sampleFunction = function () {
 
   // creates a new instance of the function parser and passes the
-  // function's argument object as a parameter
+  // function argument object as a parameter
   
   var fargs = FargsParser(arguments)
   
-  // to get the list of arguments we can use two methods
-  //  methods:
+  // to get the list of arguments we can use two methods and returns an array
   //    list        (simple argument list)
   //    typedList   (list with argument type)
-  // each method returns an array with the data of the
-  // arguments passed to the function
   
   console.table(fargs.list)
   console.table(fargs.typedList)
@@ -43,5 +39,7 @@ var sampleFunction = function () {
 
 sampleFunction('name', 123)
 ```
-<br>
+
+### License
+MIT
 
