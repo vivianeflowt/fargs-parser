@@ -34,7 +34,6 @@ const argsValidate = function (argList, rules = []) {
     var ruleList = rules[i][1].split('|').join(' ').trim().split(' ').join('|').split('|')
     for (let j = 0; j < ruleList.length; j++) {
       if (Validators.indexOf(ruleList[j]) >= 0) {
-        // console.log(ValidateMethods[ruleList[j]](argList[rules[i][0]]))
         if (!defs.VALIDATE_RULES[ruleList[j]](argList[rules[i][0]])) {
           return false
         }
