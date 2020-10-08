@@ -1,6 +1,6 @@
 ## fargs-parser - simple library to parser function arguments for node.js
 
-This library was created with the objective of simplifying the creation of functions with different options of parameters and analyzing the type of data passed and making some validations.
+This library was created with the objective of simplifying the creation of functions with different options of parameters
 
 
 ### Install
