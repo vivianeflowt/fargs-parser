@@ -14,27 +14,27 @@ const FArgs = function (argumentObject) {
   if (!type(argumentObject) === 'Arguments') {
     throw new Error('needs argument object as parameter')
   }
-  const args = argumentObject
+  const argObj = argumentObject
   let argList = null
 
-  const getArgs = () => {
+  const args = () => {
     if (argList === null) {
-      argList = Array.from(args)
+      argList = Array.from(argObj)
     }
     return argList
   }
 
   return {
     count: () => {
-      return core.argsCount(getArgs())
+      return core.argsCount(args())
     },
     list: () => {
-      return core.argsList(getArgs(), LIST_TYPE.SIMPLE)
+      return core.argsList(args(), LIST_TYPE.SIMPLE)
     },
     typedList: () => {
-      return core.argsList(getArgs(), LIST_TYPE.TYPED)
+      return core.argsList(args(), LIST_TYPE.TYPED)
     },
-    validate: (rules) => core.argsValidate(getArgs(), rules)
+    validate: (rules) => core.argsValidate(args(), rules)
   }
 }
 
