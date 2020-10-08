@@ -19,7 +19,7 @@ const LIST_TYPE = {
   TYPED: (argList = []) => {
     const list = []
     argList.forEach(e => {
-      list.push([e, type(e).toLowerCase()])
+      list.push([e, typeOf(e)])
     })
     return list
   }
