@@ -1,6 +1,6 @@
 {
   "name": "fargs-parser",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "description": "simple library to parser function arguments for node.js",
   "main": "index.js",
   "keywords": [
@@ -13,9 +13,7 @@
     "arguments",
     "parameter",
     "parameters",
-    "parser",
-    "easy",
-    "validate"
+    "parser"
   ],
   "scripts": {
     "test": "jest"
@@ -34,7 +32,6 @@
     "type-detect": "4.0.8"
   },
   "devDependencies": {
-    "chance": "1.1.7",
     "execution-time": "1.4.1",
     "jest": "26.5.2"
   }
