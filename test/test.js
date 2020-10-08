@@ -5,8 +5,10 @@
  */
 
 const assert = require('assert')
+
 const Chance = require('chance')
 const typedetect = require('type-detect')
+
 const chance = Chance(Math.floor(Math.random() * 1000 + 1).toString())
 const type = (value) => typedetect(value).toLowerCase()
 
