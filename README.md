@@ -39,8 +39,7 @@ var someFunction = function () {
 
 someFunction('name', 123)
 ```
-Results:
-https://raw.githubusercontent.com/vivianeflowt/fargs-parser/main/docs/example.png
+![example](https://raw.githubusercontent.com/vivianeflowt/fargs-parser/main/docs/example.png)
 
 ### License
 MIT
