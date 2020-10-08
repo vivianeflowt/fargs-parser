@@ -11,7 +11,7 @@ const LIST_TYPE = require('./defs').LIST_TYPE
 
 const FArgs = function (args) {
   if (core.argsParser(args) === false) {
-    throw new Error('needs arguments object')
+    throw new Error('needs argument object')
   }
   var argList = core.argsParser(args)
   return {
