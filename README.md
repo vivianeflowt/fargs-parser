@@ -29,7 +29,6 @@ var someFunction = function () {
   
   var fargs = FargsParser(arguments)
   
-  // to get the list of arguments we can use two methods and returns an array
   //    list        (simple argument list)
   //    typedList   (list with argument type)
   
