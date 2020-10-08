@@ -4,7 +4,6 @@
  * Licensed under the MIT license.
  */
 
-
 const assert = require('assert')
 const Chance = require('chance')
 const typedetect = require('type-detect')

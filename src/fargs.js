@@ -4,7 +4,6 @@
  * Licensed under the MIT license.
  */
 
-
 'use strict'
 
 const core = require('./core')

@@ -4,7 +4,6 @@
  * Licensed under the MIT license.
  */
 
-
 'use strict'
 
 const type = require('type-detect')
@@ -55,7 +54,7 @@ const isNumeric = (value) => {
   return !isNaN(value)
 }
 const isAlphaNumeric = (value) => {
-  if (!isString(value) || value == '' || value == ' ') {
+  if (!isString(value) || value === '' || value === ' ') {
     return false
   }
   var code, i, len
@@ -70,7 +69,7 @@ const isAlphaNumeric = (value) => {
   return true
 }
 const isAlpha = (value) => {
-  if (!isString(value) || value == '' || value == ' ') {
+  if (!isString(value) || value === '' || value === ' ') {
     return false
   }
   var code, i, len
