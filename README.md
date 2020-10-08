@@ -29,11 +29,11 @@ var someFunction = function () {
   
   var fargs = FargsParser(arguments)
   
-  //    list        (simple argument list)
-  //    typedList   (list with argument type)
+  // list()        (simple argument list)
+  // typedList()   (list with argument type)
   
-  console.table(fargs.list)
-  console.table(fargs.typedList)
+  console.table(fargs.list())
+  console.table(fargs.typedList())
 }
 
 someFunction('name', 123)
