@@ -10,3 +10,4 @@ debug.js
 test/
 .editorconfig
 .gitignore
+examples/
