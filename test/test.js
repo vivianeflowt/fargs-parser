@@ -5,7 +5,7 @@
  */
 
 const assert = require('assert')
-const fargs = require('../src/fargs')
+const fargs = require('../src/fargs-parser')
 
 describe('LIST_TYPE.SIMPLE', function () {
   it('return array', function () {

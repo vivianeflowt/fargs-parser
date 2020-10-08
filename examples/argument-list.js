@@ -1,4 +1,4 @@
-var FargsParser = require('../index')
+var FargsParser = require('../src/fargs-parser').FArgs
 
 // some function without argument definition
 var sampleFunction = function () {
