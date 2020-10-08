@@ -2,9 +2,13 @@
 
 This library was created with the objective of simplifying the creation of functions with different options of parameters and analyzing the type of data passed and making some validations.
 
-### Usase
+### Installation
 
->  npm install fargs-parser
+With [npm](https://npmjs.org/):
+
+```shell
+npm install fargs-parser
+```
 
 ### How to use?
 ```js
