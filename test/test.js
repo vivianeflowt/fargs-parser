@@ -381,6 +381,9 @@ describe('CORE - ARGUMENTS LIST', function () {
   it('return array', function () {
     assert.strictEqual(type(core.argsList([], LIST_TYPE.TYPED)), 'array')
   })
+  it('set default callback', function () {
+    assert.strictEqual(type(core.argsList([])), 'array')
+  })
 })
 
 describe('CORE - ARGUMENTS VALIDATE', function () {
