@@ -21,13 +21,6 @@ const argsCount = function (argList = []) {
   return argList.length
 }
 
-const argsParser = function (args) {
-  if (arguments.length === 0 || !typecast.isArgs(args)) {
-    return false
-  }
-  return Array.from(args)
-}
-
 const argsValidate = function (argList, rules = []) {
   const Validators = Object.keys(defs.VALIDATE_RULES).sort()
   for (let i = 0; i < rules.length; i++) {
@@ -49,7 +42,6 @@ module.exports.TypeCast = typecast
 module.exports.Defs = defs
 module.exports = {
   argsList,
-  argsParser,
   argsCount,
   argsValidate
 }

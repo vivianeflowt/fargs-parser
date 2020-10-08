@@ -7,18 +7,31 @@
 'use strict'
 
 const core = require('./core')
+const isArgs = require('./typecast').isArgs
 const LIST_TYPE = require('./defs').LIST_TYPE
 
-const FArgs = function (args) {
-  if (core.argsParser(args) === false) {
+const FArgs = function (argumentObject) {
+  if (!isArgs(argumentObject)) {
     throw new Error('needs argument object')
   }
-  var argList = core.argsParser(args)
+
+  const args = argumentObject
+
+  const getArgs = () => {
+    return Array.from(args)
+  }
+
   return {
-    count: core.argsCount(argList),
-    list: core.argsList(argList, LIST_TYPE.SIMPLE),
-    typedList: core.argsList(argList, LIST_TYPE.TYPED),
-    validate: (rules) => core.argsValidate(argList, rules)
+    count: () => {
+      return core.argsCount(getArgs())
+    },
+    list: () => {
+      return core.argsList(getArgs(), LIST_TYPE.SIMPLE)
+    },
+    typedList: () => {
+      return core.argsList(getArgs(), LIST_TYPE.TYPED)
+    },
+    validate: (rules) => core.argsValidate(getArgs(), rules)
   }
 }
 

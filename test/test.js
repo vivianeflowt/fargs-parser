@@ -350,21 +350,6 @@ describe('VALIDATE RULE - FUNCTION', function () {
   })
 })
 
-describe('CORE - ARGUMENTS PARSER', function () {
-  it('no arguments', function () {
-    assert.strictEqual(core.argsParser(), false)
-  })
-  it('array as argument', function () {
-    assert.strictEqual(core.argsParser([]), false)
-  })
-  it('object as argument', function () {
-    assert.strictEqual(core.argsParser({}), false)
-  })
-  it('if parameter is arguments return array', function () {
-    assert.strictEqual(type(core.argsParser(arguments)), 'array')
-  })
-})
-
 describe('CORE - ARGUMENTS COUNT', function () {
   it('array item count 0', function () {
     assert.strictEqual(core.argsCount([]), 0)
