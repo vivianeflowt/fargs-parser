@@ -2,6 +2,7 @@
 
 This library was created with the objective of simplifying the creation of functions with different options of parameters and analyzing the type of data passed and making some validations.
 
+
 ### Installation
 
 With [npm](https://npmjs.org/):
@@ -9,6 +10,13 @@ With [npm](https://npmjs.org/):
 ```shell
 npm install fargs-parser
 ```
+
+With [yarn](https://yarnpkg.com/en/):
+
+```shell
+yarn add fargs-parser
+```
+
 
 ### How to use?
 ```js
