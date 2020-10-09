@@ -39,7 +39,7 @@ someFunction("name", 123);
 ```
 
 <span> Result: </span> <br />
-![example](https://raw.githubusercontent.com/vivianeflowt/fargs-parser/main/example/example.png)
+![example](https://github.com/vivianeflowt/fargs-parser/blob/main/examples/example.png)
 
 ### License
 
