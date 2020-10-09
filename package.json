@@ -16,7 +16,8 @@
         "parser"
     ],
     "scripts": {
-        "docs": "./node_modules/.bin/esdoc",
+        "docs": "",
+        "build": "npx prettier --write . && jest",
         "format": "npx prettier --write .",
         "test": "jest"
     },
@@ -40,8 +41,6 @@
         "type-detect": "4.0.8"
     },
     "devDependencies": {
-        "esdoc": "1.1.0",
-        "esdoc-standard-plugin": "1.0.0",
         "execution-time": "1.4.1",
         "jest": "26.5.2",
         "prettier": "2.1.2"
