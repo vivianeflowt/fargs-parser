@@ -1,38 +1,49 @@
 {
-  "name": "fargs-parser",
-  "version": "0.3.4",
-  "description": "simple library to parser function arguments for node.js",
-  "main": "index.js",
-  "keywords": [
-    "node",
-    "js",
-    "javascript",
-    "function",
-    "args",
-    "argument",
-    "arguments",
-    "parameter",
-    "parameters",
-    "parser"
-  ],
-  "scripts": {
-    "test": "jest"
-  },
-  "author": "Viviane Florido <vivianeflowt@gmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vivianeflowt/fargs-parser.git"
-  },
-  "bugs": {
-    "url": "https://github.com/vivianeflowt/fargs-parser/issues"
-  },
-  "homepage": "https://github.com/vivianeflowt/fargs-parser",
-  "dependencies": {
-    "type-detect": "4.0.8"
-  },
-  "devDependencies": {
-    "execution-time": "1.4.1",
-    "jest": "26.5.2"
-  }
+    "name": "fargs-parser",
+    "version": "0.4.0",
+    "description": "simple library to parser function arguments for node.js",
+    "main": "index.js",
+    "keywords": [
+        "node",
+        "js",
+        "javascript",
+        "function",
+        "args",
+        "argument",
+        "arguments",
+        "parameter",
+        "parameters",
+        "parser"
+    ],
+    "scripts": {
+        "docs": "./node_modules/.bin/esdoc",
+        "format": "npx prettier --write .",
+        "test": "jest"
+    },
+    "author": "Viviane Florido <vivianeflowt@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vivianeflowt/fargs-parser.git"
+    },
+    "bugs": {
+        "url": "https://github.com/vivianeflowt/fargs-parser/issues"
+    },
+    "homepage": "https://github.com/vivianeflowt/fargs-parser",
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    },
+    "dependencies": {
+        "type-detect": "4.0.8"
+    },
+    "devDependencies": {
+        "esdoc": "1.1.0",
+        "esdoc-standard-plugin": "1.0.0",
+        "execution-time": "1.4.1",
+        "jest": "26.5.2",
+        "prettier": "2.1.2"
+    }
 }

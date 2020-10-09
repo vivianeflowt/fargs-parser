@@ -1,0 +1,8 @@
+node_modules/
+docs/
+.history/
+tmp/
+temp/
+README.md
+yarn.lock
+package-lock.json
