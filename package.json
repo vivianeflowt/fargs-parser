@@ -16,7 +16,6 @@
         "parser"
     ],
     "scripts": {
-        "docs": "",
         "build": "npx prettier --write . && jest",
         "format": "npx prettier --write .",
         "test": "jest"
