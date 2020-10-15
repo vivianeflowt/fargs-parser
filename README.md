@@ -35,7 +35,7 @@ someFunction("name", 123);
 ```
 
 <span> Result: </span> <br />
-![example](https://github.com/vivianeflowt/fargs-parser/blob/main/examples/example.png)
+![example](https://github.com/vivianeflowt/fargs-parser/blob/main/examples/example1.png)
 
 ```js
 // Some New Methods
