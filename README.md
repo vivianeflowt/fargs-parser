@@ -35,7 +35,7 @@ someFunction("name", 123);
 ```
 
 <span> Result: </span> <br />
-![example](https://github.com/vivianeflowt/fargs-parser/blob/main/examples/example1.png)
+![example](blob:https://pasteboard.co/b1ec9e2f-8873-4fb1-b6f3-787d674c0099)
 
 ```js
 // Some New Methods
@@ -51,7 +51,7 @@ var someFunction = function () {
 someFunction([1,2[3,4]]);
 ```
 <span> Result: </span> <br />
-![example](https://github.com/vivianeflowt/fargs-parser/blob/main/examples/example2.png)
+![example](https://pasteboard.co/b1a52686-c760-40b8-9fb1-e51279ea0052)
 
 ```js
 //New Method:  fargs.indexOf(index)          // return arguments info by index
