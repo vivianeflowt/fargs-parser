@@ -1,6 +1,6 @@
 {
     "name": "fargs-parser",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "simple library to parse function arguments for node.js",
     "main": "index.js",
     "keywords": [
@@ -37,7 +37,9 @@
         "singleQuote": true
     },
     "dependencies": {
-        "type-detect": "4.0.8"
+        "flat": "5.0.2",
+        "type-detect": "4.0.8",
+        "utils-flatten": "1.0.0"
     },
     "devDependencies": {
         "execution-time": "1.4.1",

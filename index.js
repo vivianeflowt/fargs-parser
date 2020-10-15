@@ -4,6 +4,6 @@
  * Licensed under the MIT license.
  */
 
-const FArgs = require('./src/fargs-parser').FArgs
+const FArgsParser = require('./src/fargs-parser').FArgsParser
 
-module.exports = FArgs
+module.exports = FArgsParser

@@ -1,4 +1,4 @@
-var FargsParser = require('../src/fargs-parser').FArgs
+var FargsParser = require('../src/fargs-parser').FArgsParser
 
 // some function without argument definition
 var sampleFunction = function () {
@@ -6,11 +6,7 @@ var sampleFunction = function () {
     // function's argument object as a parameter
     var fargs = FargsParser(arguments)
 
-    // list        (simple argument list)
-    // typedList   (list with argument type)
-
-    console.table(fargs.list())
-    console.table(fargs.typedList())
+    console.table(fargs.arguments)
 }
 
 sampleFunction('name', 123)
