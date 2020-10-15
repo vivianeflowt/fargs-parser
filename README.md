@@ -19,7 +19,7 @@ yarn add fargs-parser
 ### Usage
 
 ```js
-const FargsParser = require("fargs-parser");
+const FargsParser = require('fargs-parser');
 
 // some function without argument definition
 var someFunction = function () {
