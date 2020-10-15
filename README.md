@@ -37,6 +37,23 @@ someFunction("name", 123);
 <span> Result: </span> <br />
 ![example](https://github.com/vivianeflowt/fargs-parser/blob/main/examples/example.png)
 
+```js
+// Some New Methods
+var someFunction = function () {
+  // creates a new instance of the function parser and passes the
+  // function argument object as a parameter
+
+  var fargs = FargsParser(arguments);
+  // Fatten as Array 
+  console.log(fargs.flatten(0))
+};
+
+someFunction([1,2[3,4]]);
+```
+<span> Result: </span> <br />
+![example](https://github.com/vivianeflowt/fargs-parser/blob/main/examples/example2.png)
+
+
 ### License
 
 MIT
