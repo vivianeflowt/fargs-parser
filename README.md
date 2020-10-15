@@ -35,7 +35,7 @@ someFunction("name", 123);
 ```
 
 <span> Result: </span> <br />
-![example](blob:https://pasteboard.co/b1ec9e2f-8873-4fb1-b6f3-787d674c0099)
+![example](https://pasteboard.co/JvKaNKc.png)
 
 ```js
 // Some New Methods
@@ -51,7 +51,7 @@ var someFunction = function () {
 someFunction([1,2[3,4]]);
 ```
 <span> Result: </span> <br />
-![example](https://pasteboard.co/b1a52686-c760-40b8-9fb1-e51279ea0052)
+![example](https://pasteboard.co/JvKb1oi.png)
 
 ```js
 //New Method:  fargs.indexOf(index)          // return arguments info by index
