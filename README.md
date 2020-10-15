@@ -35,7 +35,7 @@ someFunction("name", 123);
 ```
 
 <span> Result: </span> <br />
-![example](https://github.com/vivianeflowt/fargs-parser/blob/main/examples/example.png)
+![example](https://github.com/vivianeflowt/fargs-parser/blob/main/examples/example1.png)
 
 ```js
 // Some New Methods
@@ -53,7 +53,14 @@ someFunction([1,2[3,4]]);
 <span> Result: </span> <br />
 ![example](https://github.com/vivianeflowt/fargs-parser/blob/main/examples/example2.png)
 
-
+```js
+//New Method:  fargs.indexOf(index)          // return arguments info by index
+//New Method:  fargs.valueOf(index)          // return value of argument by index
+//New Method:  fargs.tyṕeOf(index)           // return type of argument by index
+//New Property: fargs.lenght                  // return arguments length
+//New Method: fargs.fatten(index)           // return flatten value if array or object
+//New Method: fargs.split(index,separator)  // return split string value with separator
+```
 ### License
 
 MIT
