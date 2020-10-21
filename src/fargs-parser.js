@@ -32,8 +32,9 @@ function FArgsParser(argumentObject) {
     if (!typeOf(argumentObject) === 'arguments') {
         throw new Error('needs argument object as parameter')
     }
-
     const _arguments = argumentListBuilder(argumentObject)
+
+    console.log('lalalala')
 
     this.arguments = new (function () {
         return _arguments
